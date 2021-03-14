@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type='text']{
+    height: 25px;
+}
+button{
+    height: 25px;
+}
+.employees{
+    margin: 10px;
+    width: calc(100% - 20px);
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+.employees td{
+    border: black 1px solid;
+}
+.employees td:nth-last-child(1),
+.employees td:nth-last-child(2),
+.employees td:nth-last-child(3){
+    width: 50px;
+    overflow: hidden;
+}
+.thead{
+    text-align: center;
+    font-weight: bold;
+}
+.toolbar{
+    display: flex;
+}
+.add_button{
+    margin: 10px;
+    margin-left:auto;
+}
+.edit_form{
+    width: 100%;
+    display: flex;
+}
+.edit_form > div{
+    padding: 10px;
+    border: black 1px solid;
+}
+.edit_form > div:nth-child(1){
+    flex: 1 1 20%;
+}
+.edit_form > div:nth-child(1) input[type='text']{
+    width: 100%;
+}
+.edit_form > div:nth-child(2){
+    flex: 1 1 80%;
+}
+
+.experiance_board{
+    display: flex;
+    flex-direction: column;
+}
+.experiance_board_subpanel{
+    display: flex;
+    
+}
+.experiance_board_subpanel * {
+margin: 5px;
+}
+.experiance_board_subpanel *:nth-last-child(1){
+    margin-left: auto;
+    padding: 5px;
+}
+.gender_panel{
+    display: flex;
+    justify-content: space-around;
+}
+.w-100{
+    width: 100%;
+}
+.text-centered{
+    text-align: center;
+}
